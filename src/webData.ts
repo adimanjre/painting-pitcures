@@ -98,3 +98,34 @@ export const serviceData = [
         description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."
     }
 ]
+
+export const logoList = [
+    {
+        id:1,
+        url:"zomatoLogo.png"
+    },
+    {
+        id:2,
+        url:"careerTiqLogo.png"
+    },
+    {
+        id:3,
+        url:"insurityLogo.png"
+    },{
+        id:4,
+        url:"techmintLogo.png"
+    },{
+        id:5,
+        url:"dealtShareLogo.png"
+    }
+]
+
+export const testimonialsData = [
+    {
+        id:1,
+        avatar:"testimonial1.png",
+        name:"Krishan J.",
+        occupation:"Teachmint",
+        testimonial:"Painting Pictures are an innovative & reliable marketing agency. They always come up with unique ideas, I would highly recommend team Painting Pictures for any kind of work that involves creative brainstorming and value of time and finance for project and client."
+    }
+]
