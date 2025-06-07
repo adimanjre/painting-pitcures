@@ -6,7 +6,7 @@ import MasterPieceCard from "./MasterPieceCard";
 
 const MasterPieceSection: React.FC = () => {
   return (
-    <section className="section1 p-10 container mx-auto flex gap-10 items-center">
+    <section className="section1 p-10 flex gap-10 items-center">
       <div>
         <h2 className="font-bold text-4xl">
           Let's turn your vision into a masterpiece.

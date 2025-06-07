@@ -4,7 +4,7 @@ import type { button } from "../models/button";
 
 
 const Button:React.FC<button> = ({children, classes}) => {
-    let customeClass = 'rounded-full px-6 py-3 cursor-pointer text-lg font-medium';
+    let customeClass = 'rounded-full px-6 py-3 cursor-pointer text-lg font-medium whitespace-nowrap';
     if(customeClass) {
         customeClass += ` ${classes}`;
     }
