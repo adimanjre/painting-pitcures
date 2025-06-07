@@ -1,4 +1,5 @@
 import { ImplementatioIcon, PricingIcon, StrategyIcon } from "./components/svg/MasterPieceIcons";
+import { DigitalIcon, PerformanceIcon, ContentIcon, SocialIcon } from "./components/svg/ServicesIcons";
 
 export const navigation = [
     {
@@ -69,4 +70,31 @@ export const workImages = [
     //     id:4,
     //     url:"work4.png"
     // }
+];
+
+export const serviceData = [
+    {
+        id:1,
+        icon:DigitalIcon,
+        name:"Digital Ads & TVCs",
+        description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."
+    },
+    {
+        id:1,
+        icon:PerformanceIcon,
+        name:"Performance Marketing",
+        description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."
+    },
+    {
+        id:1,
+        icon:ContentIcon,
+        name:"Content Creation",
+        description:"We create trending and entertaining content that grabs attention and helps your business stand out from the clutter."
+    },
+    {
+        id:1,
+        icon:SocialIcon,
+        name:"Social Media",
+        description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."
+    }
 ]
