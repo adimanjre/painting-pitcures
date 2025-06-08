@@ -80,19 +80,19 @@ export const serviceData = [
         description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."
     },
     {
-        id:1,
+        id:2,
         icon:PerformanceIcon,
         name:"Performance Marketing",
         description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."
     },
     {
-        id:1,
+        id:3,
         icon:ContentIcon,
         name:"Content Creation",
         description:"We create trending and entertaining content that grabs attention and helps your business stand out from the clutter."
     },
     {
-        id:1,
+        id:4,
         icon:SocialIcon,
         name:"Social Media",
         description:"We create visually stunning and conceptually strong ads that not only attract viewers but also turn them into customers."

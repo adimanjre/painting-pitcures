@@ -4,7 +4,7 @@ import { LeftQuoteIcon, RightQuoteIcon } from "./svg/QuotIcon"
 const Slider = () => {
   return (
     <div className="flex items-center justify-between mt-10 gap-10">
-        <div>
+        <div className="hidden md:block"> 
             <LeftQuoteIcon/>
         </div>
         <div>
@@ -18,7 +18,7 @@ const Slider = () => {
                         <span>{data.occupation}</span>
                     </div>
                 </div>
-                <div className="text-center mt-5 text-xl">
+                <div className="text-center mt-5 md:text-xl">
                     {data.testimonial}
                 </div>
             </div>)
@@ -26,11 +26,11 @@ const Slider = () => {
             </div>
             <div className="flex justify-center gap-5 mt-5">
                 {
-                    testimonialsData.map(() => <span className="h-4 w-4 block rounded-full bg-[#D9D9D9] "></span>)
+                    testimonialsData.map((data) => <span key={data.id} className="h-4 w-4 block rounded-full bg-[#D9D9D9] "></span>)
                 }
             </div>
         </div>
-        <div>
+        <div className="hidden md:block">
             <RightQuoteIcon/>
         </div>
     </div>

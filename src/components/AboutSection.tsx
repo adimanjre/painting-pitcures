@@ -3,7 +3,7 @@ import SectionContent from "./SectionContent"
 
 const AboutSection = () => {
   return (
-    <section className="section2 p-10 mt-10 flex gap-20">
+    <section className="section2 p-10 mt-10 flex gap-20 flex-wrap md:flex-nowrap ">
         <div>
             <img src="about_us.png" />
         </div>

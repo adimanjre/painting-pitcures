@@ -6,8 +6,8 @@ import ServiceCard from "./serviceCard"
 
 const ServiceSection = () => {
   return (
-    <section className="section2 p-10 mt-10 grid grid-cols-2 gap-10">
-        <div className="grid grid-cols-2 gap-5">
+    <section className="section2 p-10 mt-10 grid md:grid-cols-2 gap-10">
+        <div className="grid lg:grid-cols-2 gap-5">
             {
               serviceData.map(data => <ServiceCard key={data.id} Icon={data.icon} title={data.name} description={data.description}/>)
             }

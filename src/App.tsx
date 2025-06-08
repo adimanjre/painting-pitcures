@@ -17,7 +17,7 @@ import WorkSection from './components/WorkSection'
 function App() {
  
   return (
-    <div className='container mx-auto px-14'>
+    <div className='container mx-auto md:px-14 px-5'>
       <NavBar/>
       <HeroSection/>
       <MasterPieceSection/>

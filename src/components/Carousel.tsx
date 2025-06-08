@@ -4,8 +4,8 @@ import YouTubeIcon from "./svg/YouTubeIcon"
 
 const Carousel = () => {
   return (
-    <div className="">{
-        workImages.map(data => <div key={data.id} className="relative  pt-20 h-88">
+    <div className="w-full">{
+        workImages.map(data => <div key={data.id} className="relative pt-20 h-88">
             <div className="absolute z-10 bottom-8 left-10">
                 <p className="text-xl font-medium">IPL- Jeet Ki Wish</p>
             <span className="mt-5">Dealshare</span>

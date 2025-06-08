@@ -5,7 +5,7 @@ const ReelSection = () => {
   return (
     <section className="mt-10 relative h-[60vh]">
         <div className="absolute bottom-5 z-2 left-5">
-            <h2 className="text-4xl font-bold">Watch Showreel</h2>
+            <h2 className="text-2xl md:text-4xl font-bold">Watch Showreel</h2>
         <p className="mt-5">Our showreel is an amalgamation of our best work <br/> for our clients, from music videos to digital commercials and short films.</p>
         <Button classes="bg-[#DC1D13] mt-5 text-white flex gap-3 items-center">
             <span>Get in Touch</span>

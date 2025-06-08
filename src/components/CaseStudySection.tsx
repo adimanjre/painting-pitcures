@@ -4,7 +4,7 @@ import ArrowIcon from "./svg/ArrowIcon"
 
 const CaseStudySection = () => {
   return (
-    <section className="section1 p-10 mt-10 grid grid-cols-2 gap-10">
+    <section className="section1 p-10 mt-10 grid md:grid-cols-2 gap-10">
         <SectionContent 
         title="Case Study" 
         heading="300% increase in Lead Gen For Briggate Education"
@@ -16,7 +16,7 @@ const CaseStudySection = () => {
             </Button>
         </SectionContent>
         <div className="m-auto">
-            <img src="case-study-1.png" className="h-[500px]" />
+            <img src="case-study-1.png" className="h-[500px] object-contain" />
         </div>
     </section>
   )

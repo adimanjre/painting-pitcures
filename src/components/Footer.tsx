@@ -4,7 +4,7 @@ import Input from "./Input"
 const Footer = () => {
   return (
     <footer className="mt-20 pt-10 border-t border-t-[#747178]">
-        <div className="flex gap-10">
+        <div className="flex gap-10 flex-wrap pb-10">
             <div className="flex-1">
                 <img src="logo.png" />
                 <p>
