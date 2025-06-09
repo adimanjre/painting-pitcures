@@ -1,9 +1,11 @@
+
 import Carousel from "./Carousel"
 import SectionContent from "./SectionContent"
 
 const WorkSection = () => {
+ 
   return (
-   <section className="section1 p-10 mt-10 grid md:grid-cols-2 gap-10 md:gap-20 flex-wrap">
+   <section  className="section1 p-10 mt-10 grid md:grid-cols-2 gap-10 md:gap-20 flex-wrap">
     <div className="basis-1 md:basis-1/2">
       <SectionContent 
     title="Our Work" 

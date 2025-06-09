@@ -1,8 +1,15 @@
+
 import Button from "./Button"
 import SectionContent from "./SectionContent"
 import ArrowIcon from "./svg/ArrowIcon"
+import useInterSectionObserver from "../hooks/use-intersection-observer"
 
 const CaseStudySection = () => {
+  const options = {
+    root:null,
+    threshold:0.15
+  }
+  const [target, visible, ready, handleBlur] = useInterSectionObserver(options);
   return (
     <section className="section1 p-10 mt-10 grid md:grid-cols-2 gap-10">
         <SectionContent 
@@ -15,8 +22,11 @@ const CaseStudySection = () => {
                 <span><ArrowIcon color="#303030"/></span>
             </Button>
         </SectionContent>
-        <div className="m-auto">
-            <img src="case-study-1.png" className="h-[500px] object-contain" />
+        <div  ref={target} className="m-auto">
+            <img 
+            onLoad={handleBlur}
+            src={visible?"case-study-1.png":"case-study-1_lazy.jpg"} 
+            className={`h-[500px] object-contain ${!ready?"filterBlur":"lazyLoading"}`} />
         </div>
     </section>
   )

@@ -1,5 +1,6 @@
 import Input from "./Input"
 import SectionContent2 from "./SectionContent2"
+import Button from "./Button"
 
 const ContactUs = () => {
   return (
@@ -14,7 +15,11 @@ const ContactUs = () => {
                     <div className="col-span-2"><Input type="textarea" placeholder="Subject"/></div>
                     <div className="col-span-2"><Input type="textarea" placeholder="Details" classes="h-28"/></div>
                 </div>
-                
+                <div className="flex justify-center mt-10">
+                  <Button classes="bg-[#DC1D13] text-white min-w-[150px]">
+                    <span>Submit</span>
+                  </Button>
+                </div>
             </form>
         </SectionContent2>
     </section>

@@ -56,7 +56,8 @@ export const statContent = [
 export const workImages = [
     {
         id:1,
-        url:"work1.png"
+        url:"work1.png",
+        lazyLoading:"work1_lazy.jpg"
     },
     // {
     //     id:2,

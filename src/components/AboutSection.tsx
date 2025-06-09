@@ -1,11 +1,22 @@
+
 import SectionContent from "./SectionContent"
+import useInterSectionObserver from "../hooks/use-intersection-observer";
 
 
 const AboutSection = () => {
+
+  const options = {
+    root:null,
+    rootMargin:"0px",
+    threshold:0.15,
+  }
+  const [target, isVisible, ready, handleBlur] = useInterSectionObserver(options);
+
+
   return (
     <section className="section2 p-10 mt-10 flex gap-20 flex-wrap md:flex-nowrap ">
-        <div>
-            <img src="about_us.png" />
+        <div ref={target} >
+            <img className={!ready ? 'filterBlur' :'lazyLoading'} onLoad={handleBlur} src={isVisible ? 'about_us.png' : 'about_us_lazy.jpg' } />
         </div>
         <SectionContent 
         title="About Us" 

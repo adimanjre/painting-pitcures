@@ -17,3 +17,24 @@ body{
     background-image: linear-gradient(#363636,#4D4D4D);
     border: 1px solid #747178;
 }
+
+.filterBlur{
+    filter: blur(20px);
+    background-image: '/public/careerTiqLogo.png';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lazyLoading{
+    animation:pulse 1s forwards
+}
+@keyframes pulse {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
