@@ -122,7 +122,21 @@ export const logoList = [
 
 export const testimonialsData = [
     {
+        id:0,
+        avatar:"testimonial1.png",
+        name:"Krishan J.",
+        occupation:"Teachmint",
+        testimonial:"Painting Pictures are an innovative & reliable marketing agency. They always come up with unique ideas, I would highly recommend team Painting Pictures for any kind of work that involves creative brainstorming and value of time and finance for project and client."
+    },
+    {
         id:1,
+        avatar:"testimonial1.png",
+        name:"Krishan J.",
+        occupation:"Teachmint",
+        testimonial:"Painting Pictures are an innovative & reliable marketing agency. They always come up with unique ideas, I would highly recommend team Painting Pictures for any kind of work that involves creative brainstorming and value of time and finance for project and client."
+    },
+    {
+        id:2,
         avatar:"testimonial1.png",
         name:"Krishan J.",
         occupation:"Teachmint",
